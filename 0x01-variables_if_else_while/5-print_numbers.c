@@ -2,7 +2,7 @@
 /**
  * main - Prints numbers from 0 to 9
  *
- * Return: 0
+ * Return:a always 0 (success)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 		
-		printf("%d". i);
+		printf("%d", i);
 
 	putchar('\n');
 	return (0);
