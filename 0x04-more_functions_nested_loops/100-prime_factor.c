@@ -26,7 +26,11 @@ n = n / i;
 }
 }
 if (n > 2)
+{
 max = n;
+}
+{
 printf("%1d\n", max);
+}
 return (0);
 }
