@@ -1,8 +1,7 @@
 #include "main.h"
-
 #include<stdio.h>
 /**
- * _puts - prints a string to an output
+ * _puts - Displays the string
  *@s: input
  * Return: Always 0 (Success)
  */
