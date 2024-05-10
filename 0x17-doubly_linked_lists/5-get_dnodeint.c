@@ -4,11 +4,11 @@
  * nth node of the dlistint_t linked list
  * @head: the head of the list
  * @index: the index of the nth node
- * Return: the nth node
+ * Return: nth node
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	unsigned int j;
+	unsigned int i;
 
 	if (head == NULL)
 		return (NULL);
@@ -16,14 +16,14 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	while (head->prev != NULL)
 		head = head->prev;
 
-	j = 0;
+	i = 0;
 
 	while (head != NULL)
 	{
-		if (j == index)
+		if (i == index)
 			break;
 		head = head->next;
-		j++;
+		i++;
 	}
 
 	return (head);
